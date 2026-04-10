@@ -1,0 +1,52 @@
+{
+  "window": { "width": 1200, "height": 800 },
+  "aircraft": {
+    "id": "friendly-1",
+    "name": "VIPER 01",
+    "start_position": [60, 400],
+    "speed": 80,
+    "heading": 0,
+    "turn_rate": 45,
+    "hold_radius": 40,
+    "arrival_threshold": 12,
+    "waypoints": [
+      [250, 200],
+      [500, 320],
+      [750, 150],
+      [950, 350]
+    ]
+  },
+  "threats": [
+    {
+      "type": "radar",
+      "id": "radar-1",
+      "name": "EW RADAR",
+      "position": [320, 280],
+      "detection_radius": 160,
+      "engagement_radius": 80
+    },
+    {
+      "type": "sam",
+      "id": "sam-1",
+      "name": "SA-6",
+      "position": [620, 430],
+      "detection_radius": 200,
+      "engagement_radius": 100
+    },
+    {
+      "type": "sam",
+      "id": "sam-2",
+      "name": "SA-10",
+      "position": [820, 250],
+      "detection_radius": 180,
+      "engagement_radius": 90
+    },
+    {
+      "type": "noflyzone",
+      "id": "nfz-1",
+      "name": "NFZ ALPHA",
+      "polygon": [[430, 80], [600, 80], [600, 200], [430, 200]],
+      "approach_radius": 40
+    }
+  ]
+}

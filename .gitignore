@@ -191,6 +191,12 @@ cython_debug/
 # Ruff stuff:
 .ruff_cache/
 
+# Superpowers brainstorming session files
+.superpowers/
+
+# Claude Code
+.claude/
+
 # PyPI configuration file
 .pypirc
 
